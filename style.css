@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    margin: 0;
+}
+
+.container {
+  font-family:Arial ;
+    display: flex;
+    gap: 10px; 
+    background-color: rgb(234, 170, 220);
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+#meuBotao {
+    position: relative;
+    padding: 10px 20px;
+    background-color: #ec2222; /* Verde */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 30px;
+
+}
+
+#botaosim {
+    position: relative;
+    padding: 10px 20px;
+    background-color: #51ec22; /* Verde */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 30px;
+
+}
+
+
