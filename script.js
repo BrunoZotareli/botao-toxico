@@ -5,3 +5,8 @@ function mudarPosicao() {
     botao.style.top = novaPosicaoTop + "px";
     botao.style.left = novaPosicaoLeft + "px";
 }
+
+function mostrazap() {
+    // Exibe uma mensagem de alerta
+    alert("meu zap 67981888999");
+}
