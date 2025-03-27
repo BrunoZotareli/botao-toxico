@@ -2,34 +2,35 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-  
+    height: 100vh;
     margin: 0;
+    background-color: #f1d4ff; 
 }
 
 .container {
-  font-family:Arial ;
+    font-family: Arial;
     display: flex;
     gap: 10px; 
-    background-color: rgb(234, 170, 220);
+    background-color: rgb(238, 156, 220);
     justify-content: center;
     align-items: center;
     border-radius: 5px;
+    padding: 20px;
+    position: relative;
+
 }
 
 #meuBotao {
-    position: relative;
     padding: 10px 20px;
-    background-color: #ec2222; /* Verde */
+    background-color: #ec2222; /* Vermelho */
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     font-size: 30px;
-
 }
 
 #botaosim {
-    position: relative;
     padding: 10px 20px;
     background-color: #51ec22; /* Verde */
     color: white;
@@ -37,7 +38,14 @@ body {
     border-radius: 5px;
     cursor: pointer;
     font-size: 30px;
-
 }
 
-
+#imagem {
+    display: none;
+    margin-top: 10px;  
+    max-width: 100%;  
+    position: absolute;
+    top: 60%; 
+    left: 50%; 
+    transform: translateX(-50%); 
+}
