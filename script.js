@@ -7,6 +7,9 @@ function mudarPosicao() {
 }
 
 function mostrazap() {
-    // Exibe uma mensagem de alerta
-    alert("meu zap 67981888999");
+ 
+    var imagem = document.getElementById('imagem');
+    imagem.style.display = 'block';  // Exibe a imagem
+
+alert("meu zap (67)981888999\nTe amo Vida!");
 }
